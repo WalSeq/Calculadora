@@ -300,9 +300,11 @@
             // textBox1
             // 
             textBox1.BackColor = Color.Aqua;
+            textBox1.BorderStyle = BorderStyle.None;
             textBox1.Location = new Point(17, 349);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(204, 23);
+            textBox1.ReadOnly = true;
+            textBox1.Size = new Size(204, 16);
             textBox1.TabIndex = 21;
             textBox1.Text = "By WalSeq";
             textBox1.TextAlign = HorizontalAlignment.Center;
@@ -334,7 +336,7 @@
             Controls.Add(btnN7);
             Controls.Add(btnNSumar);
             Name = "Calculadora";
-            Text = "Form1";
+            Text = "CalculadoraWalSeq_Proyecto";
             Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
